@@ -1,0 +1,27 @@
+{
+  "id": "skilltree:new_skill_31",
+  "bonuses": [
+    {
+      "type": "skilltree:repair_efficiency",
+      "item_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.05
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_25"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Мастер на все руки",
+  "titleColor": "A9A9A9",
+  "positionX": 52.326,
+  "positionY": -233.32599,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

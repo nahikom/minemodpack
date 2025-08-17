@@ -1,0 +1,54 @@
+{
+	"entity.rootoffear.wilted" : "Скрипун",
+	"item.rootoffear.wilted_spawn_egg" : "Яйцо призыва скрипуна",
+	"entity.rootoffear.decoy_wilted" : "Приманка скрипуна",
+	"entity.rootoffear.shadow_wilted" : "Тень скрипуна",
+	"entity.rootoffear.light_extinguisher" : "Гаситель света",
+	"entity.rootoffear.wilted_hands" : "Руки скрипуна",
+	"entity.rootoffear.wilted_barrier" : "Барьер скрипуна",
+	
+	"commands.rootoffear.setspawnday.success" : "Назначьте следующий день появления скрипуна %s",
+	"commands.rootoffear.setspawndayrelative.success" : "Установите, чтобы скрипун появился в %s день",
+	"commands.rootoffear.getspawnday.success" : "Скрипун появится на следующий день %s",
+	"commands.rootoffear.getspawndayrelative.success" : "Скрипун будет появляться следующие %s дней",
+	
+	"commands.rootoffear.getassignedwilted.success" : "%s назначенный скрипун - это %s",
+	"commands.rootoffear.setassignedwilted.success" : "Назначенный %s к %s",
+	"commands.rootoffear.clearassignedwilted.success" : "Очищенный %s назначенный скрипун",
+	
+	"commands.rootoffear.getultimatetarget.success" : "%s конечной целью является %s",	
+	"commands.rootoffear.setultimatetarget.success" : "Набор %s конечная цель, к которой %s",
+	"commands.rootoffear.setultimatetarget.success_multiple" : "Установите конечную цель %s скрипуна к %s",
+	"commands.rootoffear.clearultimatetarget.success" : "Достигнута конечная цель %s",
+	"commands.rootoffear.clearultimatetarget.success_multiple" : "Очищена конечная цель от %s скрипуна",
+	
+	"commands.rootoffear.fail" : "Этому измерению не может быть присвоено значение скрипуна",
+	"commands.rootoffear.fail_no_target" : "Для выполнения этой команды измерению необходимо присвоить значение скрипун",
+	"commands.rootoffear.fail_not_wilted" : "Нет скрипуна, отобранный",
+	"commands.rootoffear.fail_no_assigned_wilted" : "%s у него нет назначенного скрипуна",
+	"commands.rootoffear.fail_no_ultimate_target" : "Ни у одного из отобранных скрипуна нет конечной цели",
+	
+	"commands.rootoffear.setdisguisedtrue.success" : "Добавлена маскировка для %s",
+	"commands.rootoffear.setdisguisedtrue.success_multiple" : "Добавлена маскировка для %s скрипуна",
+	"commands.rootoffear.setdisguisedfalse.success" : "Удалена маскировка с %s",
+	"commands.rootoffear.setdisguisedfalse.success_multiple" : "Удалена маскировка с %s скрипуна",
+			
+	"block.minecraft.bed.wilted": "Тебе нельзя сейчас отдыхать, оно охотится за тобой",
+		
+	"subtitles.entity.wilted.idle": "Скрипун подкрадывается",
+	"subtitles.entity.wilted.hurt": "Скрипун горит",
+	"subtitles.entity.wilted.step": "Скрипун шагает",
+	"subtitles.entity.wilted.attack": "Скрипун атакует",
+	"subtitles.entity.wilted.leaf_storm": "Кружатся листья",
+	"subtitles.entity.wilted.sway": "Скрипун защищен",
+	"subtitles.entity.wilted.extinguish": "Скрипун гасит свет",
+	"subtitles.entity.wilted.leap": "Скрипун прыгает",
+	"subtitles.entity.wilted.land": "Скрипун утягивает под землю",
+	"subtitles.entity.wilted.dig_out": "Скрипун появляется",
+	"subtitles.entity.wilted.dig_in": "Скрипун скрывается",
+	"subtitles.entity.wilted.ground_grab": "Скрипун тянет",
+	"subtitles.entity.wilted.curse_item": "Скрипун проклинает",
+	"subtitles.entity.wilted.death": "Скрипун умирает",
+	"subtitles.entity.wilted.pulse": "Скрипун тянет",
+	"subtitles.entity.wilted.reveal": "Скрипун раскрывается"
+}

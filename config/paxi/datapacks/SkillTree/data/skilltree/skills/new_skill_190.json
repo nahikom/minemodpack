@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:new_skill_190",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "877be594-57ee-4914-b372-d38566c8c486",
+      "name": "Skill",
+      "amount": -0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_185"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Палка о двух концах",
+  "titleColor": "A9A9A9",
+  "positionX": 317.356,
+  "positionY": -111.425,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

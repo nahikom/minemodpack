@@ -1,0 +1,184 @@
+{
+  "id": "skilltree:new_skill_119",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "0188a312-9374-4d0f-b27c-504eb8cec94a",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:elder_wizard_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "2325ab84-81da-4690-9e07-b8228f13a6d8",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:elder_wizard_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "62ef26fd-ddab-4549-a6d4-5ad421af1f84",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:elder_wizard_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "c67e1551-2559-47fb-8d83-e0665a0cff8e",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:elder_wizard_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "3d42978f-d079-458c-a7d4-d0bb6b5f9767",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "irons_spellbooks:netherite_mage_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "ad2dee33-16b4-482a-ad76-d2497a716e04",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "irons_spellbooks:netherite_mage_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "cb0915c1-0aac-4d44-8315-5a0da6bb76fc",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "irons_spellbooks:netherite_mage_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "ccb5eb27-1c2e-4757-9658-4616e717f21c",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "irons_spellbooks:netherite_mage_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_113"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_crit_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Броня Верховного мага",
+  "titleColor": "A9A9A9",
+  "positionX": -565.26605,
+  "positionY": 93.02239,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5 маны, если на вас любой элемент:"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "Брони верховного мага"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "Незеритовой брони боевого мага"
+    }
+  ]
+}

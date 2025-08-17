@@ -1,0 +1,168 @@
+{
+  "id": "skilltree:new_skill_15",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "9fe42a02-211e-4e80-bdc4-4b5303f38dd6",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "id": "7450c795-8af6-487b-9850-16da31d8bf83",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "eb813fae-219d-45bf-b96b-824d89dcb6f2",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": -0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_jetpack:jetpack",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_jetpack:netherite_jetpack",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create:potato_cannon",
+        "type": "skilltree:item_id"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_150",
+    "skilltree:new_skill_5"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:alchemist_class"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Элементалист",
+  "titleColor": "6495ED",
+  "positionX": -59.148,
+  "positionY": 91.48,
+  "buttonSize": 28,
+  "isStartingPoint": true,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "△ Усиление △"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2 к силе заклинаний огня"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2 к силе заклинаний льда"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2 к силе заклинаний природы"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "▽ Ослабление ▽"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "-30% к урону в ближнем бою"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Нельзя использовать Реактивный ранец"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Нельзя использовать Незеритовый реактивный ранец"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Нельзя использовать Картофельную пушку"
+    }
+  ]
+}

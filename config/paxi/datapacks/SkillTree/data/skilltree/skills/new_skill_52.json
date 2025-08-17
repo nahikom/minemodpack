@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_52",
+  "bonuses": [
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "multiplier": 0.05
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_49"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Руническая броня",
+  "titleColor": "A9A9A9",
+  "positionX": -89.09555,
+  "positionY": -270.09555,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

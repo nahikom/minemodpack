@@ -1,0 +1,224 @@
+{
+  "id": "skilltree:new_skill_10",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.15,
+      "experience_source": "ore"
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "86cc812d-71e8-4800-a7da-f9824d754d8d",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "7cb0e3a8-0ed8-427d-835a-e8bbba53e395",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:dragonskin_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:blaze_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:netherite_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:evoker_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:necronomicon_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:villager_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:druidic_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "f7a9da05-fe66-41f4-8d42-0e1c914fe7a1",
+      "name": "Skill",
+      "amount": -0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "enigmaticlegacy:enigmatic_elytra",
+        "type": "skilltree:item_id"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_1",
+    "skilltree:new_skill_148"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:blacksmith_class"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Механический вестник",
+  "titleColor": "F4A460",
+  "positionX": -52.326,
+  "positionY": -97.326,
+  "buttonSize": 28,
+  "isStartingPoint": true,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "△ Усиление △"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+15% к получению опыта из руды"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2 к максимальному здоровью"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "▽ Ослабление ▽"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "-20% к восстановлению маны"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "-10% к силе заклинаний"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Нельзя использовать Величественные крылья"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Нельзя использовать следующие магические книги:"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Драконий кодекс"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Руководство по эксплуатации всполоха"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Древний трактат"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Гримуар призыва"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Некрономикон"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Деревенская библия"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "Рукопись друидов"
+    }
+  ]
+}

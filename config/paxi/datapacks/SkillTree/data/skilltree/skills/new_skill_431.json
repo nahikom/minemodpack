@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_431",
+  "bonuses": [
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "multiplier": 0.03
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_345"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Усиление Раскрытый потенциал II",
+  "titleColor": "D3D3D3",
+  "positionX": -401.175,
+  "positionY": -203.46,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

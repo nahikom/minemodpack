@@ -1,0 +1,62 @@
+{
+  "id": "skilltree:new_skill_381",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "b8f7a71b-350b-4dae-bb37-6b281083d432",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "id": "c7d2de40-8c61-4110-a7d6-2f20665a9f66",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "95a48a6b-21da-4d7e-aa04-8f88ac694a7e",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_318"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_1_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Усиление Сила стихий",
+  "titleColor": "D3D3D3",
+  "positionX": -208.348,
+  "positionY": 304.109,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

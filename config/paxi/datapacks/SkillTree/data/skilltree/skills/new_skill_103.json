@@ -1,0 +1,56 @@
+{
+  "id": "skilltree:new_skill_103",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "57c8071f-9ea0-4ade-8a5d-66af260605ea",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:magic_resistance",
+      "id": "42162fa4-1042-430a-8dab-5995488184da",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_100"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Отвод энергии",
+  "titleColor": "A9A9A9",
+  "positionX": -181.01944,
+  "positionY": -466.01938,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

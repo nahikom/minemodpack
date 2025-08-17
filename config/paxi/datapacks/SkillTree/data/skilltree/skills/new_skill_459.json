@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_459",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_requirement",
+      "multiplier": -0.05
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_353"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Усиление Жажда знаний II",
+  "titleColor": "D3D3D3",
+  "positionX": -411.75153,
+  "positionY": -26.890627,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

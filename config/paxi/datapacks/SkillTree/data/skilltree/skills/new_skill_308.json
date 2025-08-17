@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:new_skill_308",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "1453742e-bac2-42e2-a06c-1802e9f2ea53",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_280"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_410"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_healing_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Рунический конденсатор II",
+  "titleColor": "D3D3D3",
+  "positionX": -52.326,
+  "positionY": -520.404,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

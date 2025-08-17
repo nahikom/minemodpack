@@ -1,0 +1,29 @@
+{
+  "id": "skilltree:new_skill_220",
+  "bonuses": [
+    {
+      "type": "skilltree:jump_height",
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "leggings",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      },
+      "multiplier": 0.05
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Гидравлические поножи",
+  "titleColor": "A9A9A9",
+  "positionX": 326.0316,
+  "positionY": -371.03162,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

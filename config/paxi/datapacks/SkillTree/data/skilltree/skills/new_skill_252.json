@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_252",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "5357053e-a238-44d7-a258-b7e014ac4b61",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "type": "skilltree:effect_amount"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_246"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Фазовый рывок",
+  "titleColor": "A9A9A9",
+  "positionX": -226.85478,
+  "positionY": 504.36438,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

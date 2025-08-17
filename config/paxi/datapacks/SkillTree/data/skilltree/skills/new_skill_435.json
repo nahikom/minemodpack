@@ -1,0 +1,72 @@
+{
+  "id": "skilltree:new_skill_435",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "any",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "chance": 0.05,
+        "operation": 1,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_325"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Усиление Технологический прогресс II",
+  "titleColor": "D3D3D3",
+  "positionX": 351.487,
+  "positionY": -526.487,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

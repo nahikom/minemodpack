@@ -1,0 +1,15 @@
+{
+  "gui.nordic_structures.bossespage_1.button_next": "Следующий",
+  "item.nordic_structures.tyrfingr": "Тайрфингр",
+  "gui.nordic_structures.vikingobituary_index.button_bosses": "Боссы",
+  "gui.nordic_structures.vikingobituary_index.button_buildings": "Постройки",
+  "subtitles.anotherambience": "myrkvidr",
+  "advancements.tyfingroathswearadvancement.title": "Принесенная клятва",
+  "subtitles.myrkvidr_ambience": "myrkvidr.ambient",
+  "gui.nordic_structures.vikingobituary_index.button_info": "Информация",
+  "advancements.tyfingroathswearadvancement.descr": "Ты подобрал проклятый меч.",
+  "subtitles.mysticforest": "mysticforest",
+  "subtitles.myrkvidr_ambience2": "myrkvidr.ambient2",
+  "gui.nordic_structures.bossespage_2.label_stay_far_far_away_from_the": "держись подальше, ОЧЕНЬ далеко от этого -",
+  "subtitles.mystic-forest": "mystic-forest"
+}

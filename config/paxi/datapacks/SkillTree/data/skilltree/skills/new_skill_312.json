@@ -1,0 +1,148 @@
+{
+  "id": "skilltree:new_skill_312",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "eae28649-cd8e-4ee7-aff0-30b32c76931f",
+      "name": "Skill",
+      "amount": 0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "id": "559bd09e-d193-49e3-b95e-8675d0908dbf",
+      "name": "Skill",
+      "amount": 0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "851d112a-fee3-4021-85ba-63d12ed418b0",
+      "name": "Skill",
+      "amount": 0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "5195a634-66b6-4ccc-8b14-4fb4f71d7d37",
+      "name": "Skill",
+      "amount": -0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "id": "ab71145c-bb9a-4484-9f35-f2a71abdfc80",
+      "name": "Skill",
+      "amount": -0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "d581b713-70ce-4823-95ba-2415011592e9",
+      "name": "Skill",
+      "amount": -0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "139bea73-04b8-40b9-bce6-b7e00d6c48ab",
+      "name": "Skill",
+      "amount": -0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "73f2fb55-3e07-4b49-a7e0-6d452fde436c",
+      "name": "Skill",
+      "amount": -0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "id": "c560f374-6b55-47ec-9ead-a9d8612a2d4a",
+      "name": "Skill",
+      "amount": -0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_282"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_417"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_1_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Сила трёх стихий II",
+  "titleColor": "D3D3D3",
+  "positionX": -425.531,
+  "positionY": 303.02,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

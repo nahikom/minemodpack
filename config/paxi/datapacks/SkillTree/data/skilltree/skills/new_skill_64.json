@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:new_skill_64",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "396b0f29-bb14-4833-85a0-41fa7f180558",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "0704cbe5-6e04-47f6-8d83-5a21d2c9b7c2",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "sword",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_59"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Бесподобный дуэлянт",
+  "titleColor": "A9A9A9",
+  "positionX": 352.224,
+  "positionY": 54.934,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

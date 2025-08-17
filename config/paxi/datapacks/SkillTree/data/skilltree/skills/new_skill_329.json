@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_329",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "f2cd9cbc-04f4-4262-abc7-116fa5c5e3e0",
+      "name": "Skill",
+      "amount": 0.09,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_255"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Колдовство II",
+  "titleColor": "D3D3D3",
+  "positionX": 610.195,
+  "positionY": -56.654,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

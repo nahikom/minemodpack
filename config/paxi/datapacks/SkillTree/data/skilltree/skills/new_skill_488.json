@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_488",
+  "bonuses": [
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.15,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_479"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Усиление Жажда крови II",
+  "titleColor": "D3D3D3",
+  "positionX": 261.084,
+  "positionY": 116.628,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

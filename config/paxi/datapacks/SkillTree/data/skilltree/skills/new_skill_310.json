@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:new_skill_310",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.18,
+      "amount": 3.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_281"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_416"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Пир II",
+  "titleColor": "D3D3D3",
+  "positionX": 477.858,
+  "positionY": 212.398,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

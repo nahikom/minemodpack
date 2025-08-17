@@ -1,0 +1,82 @@
+{
+  "id": "skilltree:new_skill_307",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "melee_weapon",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "amount": 0.05,
+          "operation": 1,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "enemy_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "damage_condition": {
+            "type": "skilltree:melee"
+          },
+          "target_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:damage"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "ranged_weapon",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "amount": 0.08,
+          "operation": 1,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "enemy_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "damage_condition": {
+            "type": "skilltree:projectile"
+          },
+          "target_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:damage"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_268"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_410"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Модернизация II",
+  "titleColor": "D3D3D3",
+  "positionX": 52.326,
+  "positionY": -520.404,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_67",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "a604f72c-f7a0-4f03-bec7-53fb9c15d270",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "create:goggles",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_61"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Усовершенствованные очки",
+  "titleColor": "A9A9A9",
+  "positionX": 125.8651,
+  "positionY": -358.86508,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

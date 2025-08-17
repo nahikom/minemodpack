@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "forbidden_arcanus:deorum_ingot"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BPB",
+    "ABA"
+  ],
+  "result": {
+	  "item": "minecraft:golden_apple"
+  }
+}

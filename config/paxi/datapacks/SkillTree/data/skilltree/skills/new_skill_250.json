@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_250",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "de9050c6-0ec3-4b91-91a7-dd7740036238",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_244"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Колдовство",
+  "titleColor": "A9A9A9",
+  "positionX": 552.9062,
+  "positionY": -60.337173,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

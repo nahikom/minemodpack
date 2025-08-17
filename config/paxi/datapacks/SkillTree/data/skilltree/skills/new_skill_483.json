@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_483",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "965edc86-8b0e-4a5e-91ed-587afac48ab9",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_35"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Надвигающаяся буря II",
+  "titleColor": "D3D3D3",
+  "positionX": -238.57,
+  "positionY": 103.622,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:new_skill_356",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_damage",
+      "chance": 0.09,
+      "damage": 3.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "id": "enigmaticlegacy:cursed_ring",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_95"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Уничтожение II",
+  "titleColor": "D3D3D3",
+  "positionX": 286.035,
+  "positionY": 421.725,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_453",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_requirement",
+      "multiplier": -0.05
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_348"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_healing_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Усиление Превосходство II",
+  "titleColor": "D3D3D3",
+  "positionX": -62.535,
+  "positionY": 434.988,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

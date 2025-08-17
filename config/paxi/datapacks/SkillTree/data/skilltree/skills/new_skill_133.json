@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_133",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_damage",
+      "chance": 0.01,
+      "damage": 3.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "shield",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:block"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Продвинутый щит",
+  "titleColor": "A9A9A9",
+  "positionX": 74.953,
+  "positionY": -119.953,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

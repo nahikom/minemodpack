@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:new_skill_309",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.06,
+      "effect": "born_in_chaos_v1:dark_ward",
+      "duration": 120,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "id": "enigmaticlegacy:cursed_ring",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_269"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_416"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/hunter_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Несокрушимая воля II",
+  "titleColor": "D3D3D3",
+  "positionX": 425.52838,
+  "positionY": 303.03284,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

@@ -1,0 +1,72 @@
+{
+  "id": "skilltree:new_skill_478",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_knockback",
+      "id": "50c9190b-2379-4559-a0ef-d3ee7cbe577a",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:enchants_amount"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "born_in_chaos_v1:stun",
+      "duration": 60,
+      "amplifier": 1,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "melee_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_32"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_defensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Заряженное оружие",
+  "titleColor": "D3D3D3",
+  "positionX": -26.870157,
+  "positionY": -258.78183,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

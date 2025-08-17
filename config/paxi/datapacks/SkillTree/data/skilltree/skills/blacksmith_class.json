@@ -1,0 +1,116 @@
+{
+  "id": "skilltree:blacksmith_class",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "7f036451-09cb-4501-ae43-9e0095695939",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "14ba8e88-18c5-414d-903e-38474b236156",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "any",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "chance": 0.1,
+        "operation": 1,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "f8f7aa63-dad4-49bf-9d17-08bc52709cf3",
+      "name": "Skill",
+      "amount": -30.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_class.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Инженер",
+  "titleColor": "F4A460",
+  "positionX": -0.0,
+  "positionY": -45.0,
+  "buttonSize": 28,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "△ Усиление △"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2 к броне"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 к твердости брони"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к прочности у создаваемой экипировки"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "▽ Ослабление ▽"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "-30 маны"
+    }
+  ]
+}

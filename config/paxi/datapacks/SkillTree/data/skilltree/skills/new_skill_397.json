@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:new_skill_397",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "bae05661-5d87-4ffd-8ed6-a3fce4c7d4e1",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_328"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Усиление Второе дыхание II",
+  "titleColor": "D3D3D3",
+  "positionX": -377.48743,
+  "positionY": -500.48746,
+  "buttonSize": 18,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 к максимальному здоровью"
+    }
+  ]
+}

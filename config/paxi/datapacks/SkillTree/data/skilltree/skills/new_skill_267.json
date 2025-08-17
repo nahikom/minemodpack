@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_267",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "3053457d-8faf-4826-8f96-f8dd03afd3a0",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "type": "skilltree:effect_amount"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_264"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Тайное знание",
+  "titleColor": "A9A9A9",
+  "positionX": -439.96,
+  "positionY": 169.278,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

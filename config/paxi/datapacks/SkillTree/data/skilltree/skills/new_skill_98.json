@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:new_skill_98",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "245d9fd5-db8d-4668-b2f1-ba42805c0f2a",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:magic_resistance",
+      "id": "af4a2e95-7c02-4fc3-99d0-1e48d3c668d0",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_82"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Магоборец",
+  "titleColor": "A9A9A9",
+  "positionX": 444.88574,
+  "positionY": 87.20781,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_153",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "aaf7f9e7-f28b-42ac-a17e-126263781bf0",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_150"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Проницательность",
+  "titleColor": "A9A9A9",
+  "positionX": -74.15592,
+  "positionY": 147.50467,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

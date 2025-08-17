@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_448",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "d6013b94-4005-4fe8-84f0-32c90f7df7d3",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "irons_spellbooks:oakskin",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_330"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Усиление Фазовый рывок II",
+  "titleColor": "D3D3D3",
+  "positionX": -281.202,
+  "positionY": 565.137,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

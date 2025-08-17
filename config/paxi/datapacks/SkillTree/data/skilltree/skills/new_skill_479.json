@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:new_skill_479",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.05,
+      "amount": 2.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_34"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Жажда крови II",
+  "titleColor": "D3D3D3",
+  "positionX": 238.568,
+  "positionY": 103.626,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

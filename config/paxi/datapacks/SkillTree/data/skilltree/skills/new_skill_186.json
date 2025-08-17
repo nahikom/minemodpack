@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:new_skill_186",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.02,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_183"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Похититель душ",
+  "titleColor": "A9A9A9",
+  "positionX": -42.333,
+  "positionY": 312.911,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

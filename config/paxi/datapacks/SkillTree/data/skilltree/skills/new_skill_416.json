@@ -1,0 +1,78 @@
+{
+  "id": "skilltree:new_skill_416",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.13,
+      "effect": "born_in_chaos_v1:lifesteal",
+      "duration": 360,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "melee_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.06,
+      "effect": "born_in_chaos_v1:vampiric_touch",
+      "duration": 120,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "melee_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/hunter_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Прикосновение смерти",
+  "titleColor": "FF5555",
+  "positionX": 523.224,
+  "positionY": 299.031,
+  "buttonSize": 26,
+  "isStartingPoint": false
+}

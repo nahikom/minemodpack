@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_301",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "eab67b61-8a2f-4d00-896c-69ffb3b51ebb",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_298"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Страж",
+  "titleColor": "A9A9A9",
+  "positionX": -381.18588,
+  "positionY": -315.87732,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

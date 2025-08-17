@@ -1,0 +1,56 @@
+{
+  "id": "skilltree:new_skill_373",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:penetration",
+      "id": "79be728a-01f2-4f4b-9a23-df0fd96ddec7",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "3608c5c1-7f72-48a2-9d47-0845d18206b7",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_337"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_defensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Усиление Точный расчет II",
+  "titleColor": "D3D3D3",
+  "positionX": 288.493,
+  "positionY": -219.493,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

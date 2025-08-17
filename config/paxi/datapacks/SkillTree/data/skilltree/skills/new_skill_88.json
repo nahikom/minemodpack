@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_88",
+  "bonuses": [
+    {
+      "type": "skilltree:arrow_retrieval",
+      "chance": 0.01
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_85"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Улучшенные стрелы",
+  "titleColor": "A9A9A9",
+  "positionX": 162.63466,
+  "positionY": -447.6346,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

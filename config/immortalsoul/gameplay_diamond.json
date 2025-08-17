@@ -1,0 +1,69 @@
+{
+  "cursedChestItemDroppedCount": 3,
+  "cursedChestItems": [
+    {
+      "weight": 3,
+      "stack": {
+        "id": "ancient_forgemastery:remnant_artifact",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 15,
+      "stack": {
+        "id": "born_in_chaos_v1:pieceofdarkmetal",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "undead_unleashed:grave_iron_nugget",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "immortalsoul:ominous_fragment_key",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "stack": {
+        "id": "immortalsoul:cursed_relic",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 5,
+      "stack": {
+        "id": "enigmaticaddons:earth_heart_fragment",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 15,
+      "stack": {
+        "id": "minecraft:raw_iron",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 5,
+      "stack": {
+        "id": "undead_unleashed:soul_piece",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 20,
+      "stack": {
+        "id": "minecraft:bone",
+        "Count": 3
+      }
+    }
+  ],
+  "_immortalsoul_version": "1.1.1.0"
+}

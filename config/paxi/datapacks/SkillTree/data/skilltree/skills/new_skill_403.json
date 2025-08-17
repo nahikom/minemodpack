@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:new_skill_403",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "3fa154b0-437f-4904-9908-dda7e64b4d67",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:swim_speed",
+      "id": "9a7ca5c0-b843-44cf-ae71-3bae42415c3e",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_339"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Усиление Стремительность II",
+  "titleColor": "D3D3D3",
+  "positionX": -335.372,
+  "positionY": -142.579,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

@@ -1,0 +1,111 @@
+{
+  "id": "skilltree:alchemist_class",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "95cd5fc2-9805-430d-872b-ad8d58dac505",
+      "name": "Skill",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "cda98997-97e3-4736-bdaa-1412ae3c78b2",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:enchantment_amplification",
+      "enchantment_condition": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "dfe3e437-f60c-4d97-a5d6-ee149715e73c",
+      "name": "Skill",
+      "amount": -3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_class.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Маг",
+  "titleColor": "6495ED",
+  "positionX": -40.0,
+  "positionY": 20.0,
+  "buttonSize": 28,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "△ Усиление △"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20 маны"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к восстановлению маны"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к шансу усилить зачарование"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "▽ Ослабление ▽"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "-3 к максимальному здоровью"
+    }
+  ]
+}

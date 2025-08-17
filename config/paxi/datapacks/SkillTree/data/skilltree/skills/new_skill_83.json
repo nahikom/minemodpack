@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_83",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.1,
+      "amount": 9.0,
+      "event_listener": {
+        "item_condition": {
+          "potion_type": "beneficial",
+          "type": "skilltree:potion"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:item_used"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_77"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_1_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Насыщение магией",
+  "titleColor": "A9A9A9",
+  "positionX": -419.77643,
+  "positionY": 93.93459,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

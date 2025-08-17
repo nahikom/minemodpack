@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_327",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "a2b25958-d5a7-4d4b-adcb-6c5644cec36f",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "type": "skilltree:effect_amount"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_258"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Поток маны II",
+  "titleColor": "D3D3D3",
+  "positionX": -610.212,
+  "positionY": -56.634,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

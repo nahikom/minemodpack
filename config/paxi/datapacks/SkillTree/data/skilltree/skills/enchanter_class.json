@@ -1,0 +1,154 @@
+{
+  "id": "skilltree:enchanter_class",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.09,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 0.06,
+      "amount": 4.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "melee_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.09,
+      "effect": "undead_unleashed:projectile_resistance",
+      "duration": 260,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "48e3b7b6-7435-49f4-81d0-81b5c88b2dfa",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_class.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Падший",
+  "titleColor": "FF5555",
+  "positionX": 40.0,
+  "positionY": 20.0,
+  "buttonSize": 28,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "△ Усиление △"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+9% к урону, если у вас в руке оружие ближнего боя"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6% к шансу восстановить 4 здоровья при атаке, если у вас в руке оружие ближнего боя"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+9% шанс получить эффект Защита от стрел на 00:13 секунд при атаке"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "▽ Ослабление ▽"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 16733525
+      },
+      "text": "-20% к восстановлению маны"
+    }
+  ]
+}

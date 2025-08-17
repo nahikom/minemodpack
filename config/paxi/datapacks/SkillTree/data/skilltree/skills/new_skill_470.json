@@ -1,0 +1,76 @@
+{
+  "id": "skilltree:new_skill_470",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.01,
+      "effect": "born_in_chaos_v1:dark_ward",
+      "duration": 120,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "id": "enigmaticlegacy:cursed_ring",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.06,
+      "effect": "born_in_chaos_v1:bone_barrier",
+      "duration": 120,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_309"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Усиление Несокрушимая воля II",
+  "titleColor": "D3D3D3",
+  "positionX": 412.529,
+  "positionY": 325.549,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

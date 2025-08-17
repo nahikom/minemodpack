@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_388",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "b49b2473-38a9-4e74-94e3-e739e9ec4589",
+      "name": "Skill",
+      "amount": 0.09,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 0.1,
+        "max": 0.5,
+        "type": "skilltree:health_percentage"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_314"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Усиление Неистовство II",
+  "titleColor": "D3D3D3",
+  "positionX": 172.83557,
+  "positionY": 313.63712,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:new_skill_193",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "melee_weapon",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "amount": 0.01,
+          "operation": 1,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "enemy_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "damage_condition": {
+            "type": "skilltree:none"
+          },
+          "target_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:damage"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_187"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Улучшенное оружие",
+  "titleColor": "A9A9A9",
+  "positionX": 252.49252,
+  "positionY": -245.49254,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

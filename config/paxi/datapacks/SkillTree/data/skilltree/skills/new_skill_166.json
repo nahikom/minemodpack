@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_166",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:penetration",
+      "id": "3c5fefd3-9325-49d2-b77b-f5c4273a923c",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_163"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_defensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Точный расчет",
+  "titleColor": "A9A9A9",
+  "positionX": 200.49252,
+  "positionY": -193.49254,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

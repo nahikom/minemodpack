@@ -1,0 +1,27 @@
+{
+  "id": "skilltree:new_skill_353",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_amplification",
+      "enchantment_condition": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.2
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_209"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Жажда знаний II",
+  "titleColor": "D3D3D3",
+  "positionX": -424.753,
+  "positionY": -49.406,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

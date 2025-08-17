@@ -1,0 +1,62 @@
+{
+  "id": "skilltree:new_skill_444",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "sword",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "14ac8fa6-cbdc-4e42-94f5-2357dd2ba64d",
+      "name": "Skill",
+      "amount": -0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "sword",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_352"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Усиление Палка о двух концах II",
+  "titleColor": "D3D3D3",
+  "positionX": 447.255,
+  "positionY": -36.417,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

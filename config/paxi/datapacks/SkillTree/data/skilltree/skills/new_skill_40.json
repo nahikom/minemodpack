@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_40",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "pickaxe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "multiplier": 0.03
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_37"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Эволюционная кирка",
+  "titleColor": "A9A9A9",
+  "positionX": 89.09555,
+  "positionY": -270.09555,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

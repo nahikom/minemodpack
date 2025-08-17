@@ -1,0 +1,62 @@
+{
+  "id": "skilltree:new_skill_102",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "id": "8e38e0c0-79e7-400f-a6d8-de9fd4225049",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "id": "48aa08ac-f026-49f9-ab02-a33f2f0ec427",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "id": "34cd113a-336e-4304-8d65-3f17ceecc6d2",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_99"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Щит от магии",
+  "titleColor": "A9A9A9",
+  "positionX": -307.353,
+  "positionY": 362.16,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

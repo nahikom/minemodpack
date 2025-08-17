@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_306",
+  "bonuses": [
+    {
+      "type": "skilltree:free_enchantment",
+      "chance": 0.02
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_303"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_healing_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Превосходство",
+  "titleColor": "A9A9A9",
+  "positionX": -58.849304,
+  "positionY": 492.27734,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_233",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "99511058-81db-4db6-8fb2-509a8b747d21",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Ярость",
+  "titleColor": "A9A9A9",
+  "positionX": 485.3587,
+  "positionY": -99.3415,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

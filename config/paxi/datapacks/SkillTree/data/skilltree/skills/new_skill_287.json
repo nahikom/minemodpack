@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_287",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "42419e4c-6419-4488-8f99-4efbe5c819a6",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "enigmaticlegacy:cursed_ring",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_284"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Легендарный рыцарь",
+  "titleColor": "A9A9A9",
+  "positionX": 109.08825,
+  "positionY": 478.83063,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.5 к максимальному здоровью, если на вас Кольцо Семи проклятий"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+	autofocus_id: "15D0895035CD2451"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54FA3A661A30B0B8"
+	group: "72A714D38A5675C8"
+	icon: "enigmaticlegacy:the_cube"
+	id: "54FA3A661A30B0B8"
+	images: [
+		{
+			height: 2.85d
+			image: "ftbquests:textures/logo_orig.png"
+			rotation: 0.0d
+			width: 5.65d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 7.2d
+			image: "ftbquests:textures/background_quest.png"
+			rotation: 0.0d
+			width: 7.2d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&o&7Еще никому не удавалось так далеко зайти...ты преодолел много трудностей и препятствий на своем пути. Когда я впервые увидел тебя, то верил в твои силы, верил, что ты достигнешь поставленной цели.&r"
+				""
+				"&o&7Вот ты стоишь на пороге к бессмертию и понимаешь на сколько ты близок. У тебя, возможно, так много вопросов...кто я...для чего все это создал? Ответ очень прост: я хотел показать тебе на что ты способен, что не бывает препятствий для достижения цели, бывают возможности, которыми ты так хорошо овладел.&r"
+				""
+				"&o&7Если ты думаешь что достижение бессмертия это конец, то ты глубоко ошибаешься. Мы сами вольны ставить перед собой цели и достигать их. В мире так много всего неизведанного. А что может нас ждать впереди? На этот вопрос даже я не в силах ответить. Закончи начатое и получи достойную награду!&r"
+				""
+				"&o&7Удачи тебе, мы еще обязательно встретимся в будущем.&r"
+			]
+			hide_text_until_complete: true
+			icon: "enigmaticlegacy:desolation_ring"
+			id: "15D0895035CD2451"
+			rewards: [
+				{
+					id: "7C48DDCD712C9C42"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "771F903CCF103D14"
+					item: "enigmaticlegacy:the_cube"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Получить бремя опустошения, бесконечность и пожертвовать первородным кубом"
+			tasks: [
+				{
+					id: "07E39C121C51DBFF"
+					item: "enigmaticlegacy:desolation_ring"
+					title: "Получить Бремя опустошения"
+					type: "item"
+				}
+				{
+					id: "6EEE2BD0DD525C84"
+					item: "enigmaticlegacy:the_infinitum"
+					title: "Получить Бесконечность"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2816AD78EE1CE97E"
+					item: "enigmaticaddons:primeval_cube"
+					title: "Пожертвовать Первородным кубом"
+					type: "item"
+				}
+			]
+			title: "Бессмертный?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D0895035CD2451"]
+			description: [
+				"Идея о &6Бессмертии&r встречается в той или иной форме у многих народов, когда либо живших в &7Новом мире&r. Одни рассматривают его как возможность стать лучше, другие видят в этом безграничную власть, а третьи как ключ к нечто большему чем просто обрести вечную жизнь."
+				""
+				"&5Сердце Мироздания&r это не просто самый могущественный артефакт этого мира - это ключ к &6Архитектору&r. Любой, кому удалось завладеть этим &7Камнем стихий&r, может по праву называть себя &6Бессмертным&r. Но все мы знаем что нет предела совершенству...тогда быть может это еще не конец?"
+			]
+			hide_until_deps_complete: true
+			id: "64C0CC3AD5051D25"
+			rewards: [
+				{
+					id: "58319CB8DC0DF66D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "21425CBA217F52D0"
+					item: "enigmaticlegacy:enigmatic_item"
+					only_one: true
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Пожертвовать три Неевклидовых куба"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4BE3BF2029B0A9A3"
+				item: "enigmaticlegacy:the_cube"
+				title: "Неевклидов куб"
+				type: "item"
+			}]
+			title: "На пути к Архитектору"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Вознёсшийся"
+}

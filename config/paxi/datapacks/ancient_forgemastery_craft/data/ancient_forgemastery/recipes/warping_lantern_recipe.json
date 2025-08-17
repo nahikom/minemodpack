@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "ancient_forgemastery:remnant_artifact"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "d": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "ancient_forgemastery:warping_lantern",
+    "count": 1
+  }
+}

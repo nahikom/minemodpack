@@ -1,0 +1,56 @@
+{
+  "id": "skilltree:new_skill_482",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "455de167-62c8-43bf-8766-c5cd49c7d641",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:magic_resistance",
+      "id": "f8754b49-6f7c-448b-818b-423013337037",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "enigmaticlegacy:cursed_ring",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_33"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Призрак в доспехах",
+  "titleColor": "D3D3D3",
+  "positionX": 211.696,
+  "positionY": 150.169,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

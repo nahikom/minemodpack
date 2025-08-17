@@ -1,0 +1,27 @@
+{
+  "id": "skilltree:new_skill_294",
+  "bonuses": [
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.01
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_291"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Раскрытый потенциал",
+  "titleColor": "A9A9A9",
+  "positionX": -458.465,
+  "positionY": -199.774,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

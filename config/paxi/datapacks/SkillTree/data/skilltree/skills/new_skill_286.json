@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:new_skill_286",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.armor",
+          "id": "fbd6b696-073d-4adc-b7ec-d3adbfe94304",
+          "name": "Skill",
+          "amount": 0.2,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_283"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Эксперементальная броня",
+  "titleColor": "A9A9A9",
+  "positionX": 362.80112,
+  "positionY": -334.2621,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

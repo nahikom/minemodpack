@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:new_skill_417",
+  "bonuses": [
+    {
+      "type": "skilltree:player_sockets",
+      "item_condition": {
+        "type": "skilltree:none"
+      },
+      "sockets": 1
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/hunter_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Космическое знание",
+  "titleColor": "6495ED",
+  "positionX": -523.224,
+  "positionY": 298.985,
+  "buttonSize": 26,
+  "isStartingPoint": false
+}

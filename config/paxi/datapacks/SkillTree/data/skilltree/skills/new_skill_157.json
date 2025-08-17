@@ -1,0 +1,58 @@
+{
+  "id": "skilltree:new_skill_157",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "c9f49fde-135e-42e1-bd4c-daefc8a003f0",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 0.1,
+        "max": 0.5,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 0.1,
+        "max": 0.5,
+        "type": "skilltree:health_percentage"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_154"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Вихрь энтропии",
+  "titleColor": "A9A9A9",
+  "positionX": -130.10774,
+  "positionY": -175.10776,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

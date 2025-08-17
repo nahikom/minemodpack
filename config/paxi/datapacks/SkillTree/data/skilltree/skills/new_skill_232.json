@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_232",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "b64d476a-498b-4c83-b9ff-50d2ffe4e474",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "boots",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_229"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Ботинки подвижности",
+  "titleColor": "A9A9A9",
+  "positionX": -326.0316,
+  "positionY": -371.03162,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

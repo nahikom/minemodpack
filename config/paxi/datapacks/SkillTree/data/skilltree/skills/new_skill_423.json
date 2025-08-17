@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_423",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "d5b566e5-43f8-4b9a-83c6-f9093143e4e2",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "chance": 0.1,
+        "operation": 1,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_343"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Усиление Эксперементальная броня II",
+  "titleColor": "D3D3D3",
+  "positionX": 374.1148,
+  "positionY": -246.03671,
+  "buttonSize": 18,
+  "isStartingPoint": false
+}

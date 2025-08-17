@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_282",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "54ce0c60-34b3-47db-835a-454fb9cf807d",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_279"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_1_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Сила огня",
+  "titleColor": "A9A9A9",
+  "positionX": -394.3552,
+  "positionY": 285.02057,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

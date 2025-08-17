@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_354",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "1310eba4-a150-49a6-b071-a23d783eaca3",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_210"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Интеллект II",
+  "titleColor": "D3D3D3",
+  "positionX": -172.232,
+  "positionY": 387.907,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

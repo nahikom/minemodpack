@@ -1,0 +1,305 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/wildfire.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-5, 25, -5, 10, 10, 10], "textureOffset": [0, 0]},
+						{"coordinates": [-6, 28, -5.25, 12, 3, 4], "textureOffset": [32, 0]}
+					],
+					"submodels": [
+						{
+							"id": "spike",
+							"invertAxis": "xy",
+							"translate": [-1, 15, -1],
+							"boxes": [
+								{"coordinates": [1, 20, -3.5, 0, 9, 9], "textureOffset": [46, -1]}
+							],
+							"submodels": [
+								{
+									"id": "rotate",
+									"invertAxis": "xy",
+									"translate": [1, 25, 1],
+									"rotate": [0, 90, 0],
+									"boxes": [
+										{"coordinates": [0, -5, -4.5, 0, 9, 9], "textureOffset": [46, -1]}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "big_stick",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"texture": "textures/entity/wildfire_ring.png",
+					"boxes": [
+						{"coordinates": [-2, 3, -2, 4, 20, 4], "textureOffset": [32, 8]}
+					]
+				},
+				{
+					"id": "ring",
+					"invertAxis": "xy",
+					"translate": [0, 17, 0],
+					"texture": "textures/entity/blaze_ring.png",
+					"boxes": [
+						{
+							"coordinates": [-10, 1, -10, 20, 6, 20],
+							"uvNorth": [18, 20, 36, 26],
+							"uvEast": [0, 20, 18, 26],
+							"uvSouth": [0, 26, 18, 32],
+							"uvWest": [18, 26, 36, 32],
+							"uvUp": [18, 18, 0, 0],
+							"uvDown": [18, 0, 0, 18]
+						}
+					]
+				},
+				{
+					"id": "ring2",
+					"invertAxis": "xy",
+					"translate": [0, 10, 0],
+					"texture": "textures/entity/blaze_ring.png",
+					"boxes": [
+						{
+							"coordinates": [-8, 1, -8, 16, 6, 16],
+							"uvNorth": [48, 8, 64, 14],
+							"uvEast": [48, 14, 64, 20],
+							"uvSouth": [48, 26, 64, 32],
+							"uvWest": [48, 20, 64, 26],
+							"uvUp": [16, 16, 0, 0],
+							"uvDown": [16, 0, 0, 16]
+						}
+					]
+				},
+				{
+					"id": "shield",
+					"invertAxis": "xy",
+					"translate": [0, 17.5, 0],
+					"texture": "textures/entity/wildfire_ring.png",
+					"submodels": [
+						{
+							"id": "rotation",
+							"invertAxis": "xy",
+							"translate": [-17.94292, -1.30734, 0],
+							"rotate": [1.89434, 2.06183, -19.77096],
+							"boxes": [
+								{
+									"coordinates": [-1, -11.5, -7, 2, 23, 14],
+									"uvNorth": [14, 0, 16, 23],
+									"uvEast": [16, 0, 30, 23],
+									"uvSouth": [30, 0, 32, 23],
+									"uvWest": [0, 0, 14, 23],
+									"uvUp": [64, 32, 62, 18],
+									"uvDown": [62, 18, 60, 32]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "shield2",
+					"invertAxis": "xy",
+					"translate": [0, 17.5, 0],
+					"texture": "textures/entity/wildfire_ring.png",
+					"submodels": [
+						{
+							"id": "rotation2",
+							"invertAxis": "xy",
+							"translate": [17.94292, -1.30734, 0],
+							"rotate": [0, 0, 20],
+							"boxes": [
+								{
+									"coordinates": [-1, -11.5, -7, 2, 23, 14],
+									"uvNorth": [14, 0, 16, 23],
+									"uvEast": [0, 0, 14, 23],
+									"uvSouth": [30, 0, 32, 23],
+									"uvWest": [16, 0, 30, 23],
+									"uvUp": [64, 32, 62, 18],
+									"uvDown": [62, 18, 60, 32]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "shield3",
+					"invertAxis": "xy",
+					"translate": [0, 17.5, 0],
+					"texture": "textures/entity/wildfire_ring.png",
+					"submodels": [
+						{
+							"id": "rotation3",
+							"invertAxis": "xy",
+							"translate": [-0.05708, -1.30734, -18],
+							"rotate": [90, 70, 90],
+							"boxes": [
+								{
+									"coordinates": [-1, -11.5, -7, 2, 23, 14],
+									"uvNorth": [14, 0, 16, 23],
+									"uvEast": [0, 0, 14, 23],
+									"uvSouth": [30, 0, 32, 23],
+									"uvWest": [16, 0, 30, 23],
+									"uvUp": [64, 32, 62, 18],
+									"uvDown": [62, 18, 60, 32]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "shield4",
+					"invertAxis": "xy",
+					"translate": [0, 17.5, 0],
+					"texture": "textures/entity/wildfire_ring.png",
+					"submodels": [
+						{
+							"id": "rotation4",
+							"invertAxis": "xy",
+							"translate": [-0.05708, -1.30734, 18],
+							"rotate": [-90, -70, 90],
+							"boxes": [
+								{
+									"coordinates": [-1, -11.5, -7, 2, 23, 14],
+									"uvNorth": [14, 0, 16, 23],
+									"uvEast": [0, 0, 14, 23],
+									"uvSouth": [30, 0, 32, 23],
+									"uvWest": [16, 0, 30, 23],
+									"uvUp": [64, 32, 62, 18],
+									"uvDown": [62, 18, 60, 32]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head2.ty": "(-3 + sin(time / 16))",
+					"big_stick.ty": "(-3 + sin(time / 16))",
+					"big_stick.ry": "(time / 8)*(-1)",
+					"ring.ry": "(time / 10)",
+					"ring.rx": "(sin(time / 16)/16)",
+					"ring.rz": "(sin(time / 16)/16)",
+					"ring2.ry": "(time / -6)",
+					"ring2.rx": "(sin(time / 16)/16)",
+					"ring2.rz": "(sin(time / 16)/16)",
+					"shield.ry": "(time / -5)",
+					"shield.rx": "(sin(time / 16)/16)",
+					"shield.rz": "(sin(time / 16)/16)",
+					"shield2.ry": "(time / -5)",
+					"shield2.rx": "(sin(time / 16)/16)",
+					"shield2.rz": "(sin(time / 16)/16)",
+					"shield3.ry": "(time / -5)",
+					"shield3.rx": "(sin(time / 16)/16)",
+					"shield3.rz": "(sin(time / 16)/16)",
+					"shield4.ry": "(time / -5)",
+					"shield4.rx": "(sin(time / 16)/16)",
+					"shield4.rz": "(sin(time / 16)/16)"
+				}
+			]
+		},
+		{
+			"part": "stick1",
+			"id": "stick1",
+			"invertAxis": "xy",
+			"translate": [-7, -26, 7],
+			"texture": "textures/entity/blaze_ring.png",
+			"boxes": [
+				{"coordinates": [5.5, 17, -8.5, 3, 10, 3], "textureOffset": [36, 19]}
+			]
+		},
+		{
+			"part": "stick2",
+			"id": "stick2",
+			"invertAxis": "xy",
+			"translate": [7, -26, 7],
+			"texture": "textures/entity/blaze_ring.png",
+			"boxes": [
+				{"coordinates": [-8.5, 17, -8.5, 3, 10, 3], "textureOffset": [36, 19]}
+			]
+		},
+		{
+			"part": "stick3",
+			"id": "stick3",
+			"invertAxis": "xy",
+			"translate": [7, -26, -7],
+			"texture": "textures/entity/blaze_ring.png",
+			"boxes": [
+				{"coordinates": [-8.5, 17, 5.5, 3, 10, 3], "textureOffset": [36, 19]}
+			]
+		},
+		{
+			"part": "stick4",
+			"id": "stick4",
+			"invertAxis": "xy",
+			"translate": [-7, -26, -7],
+			"texture": "textures/entity/blaze_ring.png",
+			"boxes": [
+				{"coordinates": [5.5, 17, 5.5, 3, 10, 3], "textureOffset": [36, 19]}
+			]
+		},
+		{
+			"part": "stick5",
+			"id": "stick5",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 5]
+		},
+		{
+			"part": "stick6",
+			"id": "stick6",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 5]
+		},
+		{
+			"part": "stick7",
+			"id": "stick7",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, -5]
+		},
+		{
+			"part": "stick8",
+			"id": "stick8",
+			"invertAxis": "xy",
+			"translate": [-5, -22, -5]
+		},
+		{
+			"part": "stick9",
+			"id": "stick9",
+			"invertAxis": "xy",
+			"translate": [-3, -14, 3]
+		},
+		{
+			"part": "stick10",
+			"id": "stick10",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [3, -14, 3]
+		},
+		{
+			"part": "stick11",
+			"id": "stick11",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [3, -14, -3]
+		},
+		{
+			"part": "stick12",
+			"id": "stick12",
+			"invertAxis": "xy",
+			"translate": [-3, -14, -3]
+		}
+	]
+}

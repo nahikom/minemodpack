@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_168",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "24b75ebf-5f18-47e5-ac45-1acb6bcd2123",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_165"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Стремительность",
+  "titleColor": "A9A9A9",
+  "positionX": -268.85104,
+  "positionY": -79.37065,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

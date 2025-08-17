@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_42",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "ac2b527a-7091-4cd0-bbcc-715804805da2",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 0.9,
+        "max": 1.0,
+        "type": "skilltree:health_percentage"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_39"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Cосредоточенность",
+  "titleColor": "A9A9A9",
+  "positionX": -279.48407,
+  "positionY": 55.392853,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

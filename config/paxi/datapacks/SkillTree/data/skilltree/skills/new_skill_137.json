@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:new_skill_137",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.01,
+      "multiplier": 1.0,
+      "loot_type": "mobs"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_134"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Удачная охота",
+  "titleColor": "A9A9A9",
+  "positionX": 74.15592,
+  "positionY": 147.50467,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
