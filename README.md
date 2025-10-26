@@ -1,1 +1,1 @@
-детали для брони и оружия из Cisco могут быть найдены в следующих постройках из Dungeons Arise: aviary, bandit towers, heavenly challenger, heavenly conqueror, heavenly rider, keep kayra, mechanical nest, thornborn towers. Найти эти строения можно с помощью компаса исследователя.
+сборная солянка из лучших модов на 1.20.1, forge 47.2.30
